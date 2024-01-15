@@ -24,22 +24,36 @@ export class FaqComponent implements OnInit {
 
     accordionItems = [
         {
-            title: 'What are the different types of undergraduate degrees?',
+            title: 'Umre Vizesi ile Krallık şehirleri arasında hareket etmek mümkün mü?',
+            content: 'Umre Vizesi ile Krallık şehirleri arasında hareket etmek mümkün mü?',
+            open: false
+        },
+        {
+            title: 'Müminlerin giriş ve çıkışları için belirli havaalanları var mıdır?',
             content: 'Associate: a two-year program that either leads to a specific vocation or transitions to a bachelor program. Bachelor: a four or five-year program where students earn credits in a wide variety of courses.',
             open: false
         },
         {
-            title: 'What are the different types of graduate degrees?',
+            title: 'Umre Vizesi olmayan bir vize ile Umre yapmak mümkün müdür?',
+            content: 'Associate: a two-year program that either leads to a specific vocation or transitions to a bachelor program. Bachelor: a four or five-year program where students earn credits in a wide variety of courses.',
+            open: false
+        }
+       
+    ];
+    accordion1Items = [
+       
+        {
+            title: 'Bir mümin Krallığa farklı yollarla girip çıkabilir mi?',
             content: 'Associate: a two-year program that either leads to a specific vocation or transitions to a bachelor program. Bachelor: a four or five-year program where students earn credits in a wide variety of courses.',
             open: false
         },
         {
-            title: 'Can you work while studying in the United States?',
+            title: 'Umrenin kaç kez yapılmasına izin verilir?',
             content: 'Associate: a two-year program that either leads to a specific vocation or transitions to a bachelor program. Bachelor: a four or five-year program where students earn credits in a wide variety of courses.',
             open: false
         },
         {
-            title: 'What is distance education?',
+            title: 'İzin saatinden bir saat veya daha fazla sonra umre yapmak ?',
             content: 'Associate: a two-year program that either leads to a specific vocation or transitions to a bachelor program. Bachelor: a four or five-year program where students earn credits in a wide variety of courses.',
             open: false
         }

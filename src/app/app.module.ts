@@ -5,7 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CountUpModule } from 'ngx-countup';
 import { NgxScrollTopModule } from 'ngx-scrolltop';
 import { LightboxModule } from 'ngx-lightbox';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LightgalleryModule } from 'lightgallery/angular';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -179,6 +179,7 @@ import { HomefourteenMainBannerComponent } from './components/pages/home-page-fo
 import { HomefourteenAboutComponent } from './components/pages/home-page-fourteen/homefourteen-about/homefourteen-about.component';
 import { FreeTrialFormComponent } from './components/common/free-trial-form/free-trial-form.component';
 import { FunfactsStyleFourComponent } from './components/common/funfacts-style-four/funfacts-style-four.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -362,7 +363,9 @@ import { FunfactsStyleFourComponent } from './components/common/funfacts-style-f
     NgxScrollTopModule,
     LightboxModule,
     FormsModule,
-    LightgalleryModule
+    LightgalleryModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

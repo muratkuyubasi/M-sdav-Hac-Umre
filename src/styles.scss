@@ -44,6 +44,12 @@ p {
     };
     &:last-child {
         margin-bottom: 0;
+        font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 135%;
+    font-style: normal;
+    font-family: Gotham-Regular, ZaridSans-Regular, sans-serif;
+    color: #fff;
     }
 }
 .d-table {
@@ -1521,18 +1527,19 @@ textarea.form-control {
     }
 }
 .divider {
-    width: 100%;
     position: absolute;
-    height: 6vw;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    pointer-events: none;
-    -webkit-mask-image:url("data:image/svg+xml;utf8,%3csvg viewBox='0 0 100 100' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3e%3cpath d='M0,0 C16.6666667,66 33.3333333,98 50,98 C66.6666667,98 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z' fill='%23fff'/%3e%3c/svg%3e");
-    mask-image:url("data:image/svg+xml;utf8,%3csvg viewBox='0 0 100 100' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3e%3cpath d='M0,0 C16.6666667,66 33.3333333,98 50,98 C66.6666667,98 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z' fill='%23fff'/%3e%3c/svg%3e");
-    -webkit-mask-size: 100% 101%;
-    mask-size: 100% 101%;
-    background: var(--whiteColor);
+    width: 100vw;
+    height: 25vh;
+    bottom: 0px;
+    overflow: hidden;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    transform: rotate(180deg);
+    max-height: 700px;
+    mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0) 20%, rgb(0, 0, 0) 70%, rgba(0, 0, 0, 0) 95%);
+    
+   background-image:url(assets/img/indir.png);
 }
 .mr-2 {
     margin-right: .5rem;

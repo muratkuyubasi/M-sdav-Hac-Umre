@@ -6,6 +6,7 @@
     height: auto;
     z-index: 999;
     position: absolute;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)) 0px 0px no-repeat padding-box padding-box transparent    ;
 
     &.p-relative {
         position: relative;
@@ -187,7 +188,7 @@
 }
 
 .top-header {
-    background-color: var(--mainColor);
+    // background-color: var(--mainColor);
     padding: {
         top: 15px;
         bottom: 25px;
@@ -377,7 +378,8 @@
     }
 }
 .top-header-style-four {
-    background-color: var(--mainColor);
+    // background-color: var(--mainColor);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     padding: {
         top: 0;
         bottom: 0;
@@ -432,7 +434,8 @@
         margin-top: 0;
         position: fixed;
         box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
-        background-color: var(--whiteColor) !important;
+        background-color: rgba(0, 0, 0, 0.7) !important;
+        backdrop-filter: blur(10px);
         animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 
         .navbar {
@@ -443,7 +446,7 @@
         }
     }
     .navbar {
-        background-color: var(--whiteColor) !important;
+        // background-color: var(--whiteColor) !important;
         border-radius: 3px;
         padding: 0 20px;
         
@@ -470,7 +473,7 @@
                 padding: 0;
 
                 a {
-                    color: var(--blackColor);
+                    color: #fff;
                     font: {
                         size: 16.5px;
                         weight: 500;

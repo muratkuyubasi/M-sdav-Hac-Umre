@@ -1,9 +1,10 @@
 .offer-area {
     position: relative;
     z-index: 1;
+    
     background: {
         color: var(--mainColor);
-        image: url(../../../../assets/img/offer-bg.jpg);
+        image: url(../../../../assets/img/explore_makkah_926fd44e91.jpg);
         position: center center;
         size: cover;
         repeat: no-repeat;
@@ -21,14 +22,15 @@
         }
     }
     &::before {
-        content: '';
+        content: "";
         position: absolute;
-        left: 0;
-        bottom: 0;
         width: 100%;
-        height: 20%;
-        z-index: -1;
-        background-color: var(--whiteColor);
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        pointer-events: none;
     }
 }
 .single-offer-box {
