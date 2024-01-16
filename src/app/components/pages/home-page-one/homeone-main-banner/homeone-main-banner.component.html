@@ -1,7 +1,7 @@
 <div class="gym-home-slides">
     <owl-carousel-o [options]="gymHomeSlides" >
         <ng-template carouselSlide *ngFor="let data of slidersModel ; let i = index">
-            <img img [src]="path+'/WebImages/Announcements/'+data.image" alt="Image">
+            <img img [src]="path+'/WebImages/Announcements/'+data.image" alt="Image" style="animation: pulse 18s linear 0s infinite alternate none running;">
                 <div class="container">
                     <div class="gym-banner-content">
 

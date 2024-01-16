@@ -12,4 +12,10 @@ export class AboutPageOneComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // for tab click event
+  currentTab = 'tab1';
+  switchTab(event: MouseEvent, tab: string) {
+      event.preventDefault();
+      this.currentTab = tab;
+  }
 }

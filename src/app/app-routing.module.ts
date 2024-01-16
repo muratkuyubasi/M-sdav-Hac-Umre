@@ -65,6 +65,13 @@ import { HomePageFourteenComponent } from './components/pages/home-page-fourteen
 
 const routes: Routes = [
     {path: '', component: HomePageOneComponent},
+    {path: 'about', component: AboutPageOneComponent},
+    {path: 'contact', component: ContactPageComponent},
+    {path: 'faqs', component: FaqPageComponent},
+    {path: 'programoffer', component: CoursesGridStyleOneColumnsThreePageComponent},
+    {path: 'mekke', component: CoursesGridStyleTwoColumnsFourPageComponent},
+
+
     {path: 'course-portal-online', component: HomePageTwoComponent},
     {path: 'distant-learning', component: HomePageThreeComponent},
     {path: 'modern-teaching', component: HomePageFourComponent},
@@ -78,7 +85,6 @@ const routes: Routes = [
     {path: 'online-motivation-course', component: HomePageTwelveComponent},
     {path: 'online-education-course', component: HomePageThirteenComponent},
     {path: 'online-training-course', component: HomePageFourteenComponent},
-    {path: 'about-style-1', component: AboutPageOneComponent},
     {path: 'about-style-2', component: AboutPageTwoComponent},
     {path: 'instructor-1', component: InstructorsPageOneComponent},
     {path: 'instructor-2', component: InstructorsPageTwoComponent},
@@ -92,7 +98,6 @@ const routes: Routes = [
     {path: 'partner', component: PartnerPageComponent},
     {path: 'login', component: LoginPageComponent},
     {path: 'register', component: RegisterPageComponent},
-    {path: 'faqs', component: FaqPageComponent},
     {path: 'error-404', component: ErrorPageComponent},
     {path: 'coming-soon', component: ComingSoonPageComponent},
     {path: 'courses-category-style-1', component: CategoryPageOneComponent},
@@ -100,11 +105,9 @@ const routes: Routes = [
     {path: 'courses-category-style-3', component: CategoryPageThreeComponent},
     {path: 'courses-list', component: CoursesListPageComponent},
     {path: 'courses-2-columns-style-1', component: CoursesGridStyleOneColumnsTwoPageComponent},
-    {path: 'courses-3-columns-style-1', component: CoursesGridStyleOneColumnsThreePageComponent},
     {path: 'courses-4-columns-style-1', component: CoursesGridStyleOneColumnsFourPageComponent},
     {path: 'courses-2-columns-style-2', component: CoursesGridStyleTwoColumnsTwoPageComponent},
     {path: 'courses-3-columns-style-2', component: CoursesGridStyleTwoColumnsThreePageComponent},
-    {path: 'courses-4-columns-style-2', component: CoursesGridStyleTwoColumnsFourPageComponent},
     {path: 'courses-2-columns-style-3', component: CoursesGridStyleThreeColumnsTwoPageComponent},
     {path: 'courses-3-columns-style-3', component: CoursesGridStyleThreeColumnsThreePageComponent},
     {path: 'courses-4-columns-style-3', component: CoursesGridStyleThreeColumnsFourPageComponent},
@@ -125,7 +128,6 @@ const routes: Routes = [
     {path: 'single-products', component: ProductsDetailsPageComponent},
     {path: 'cart', component: CartPageComponent},
     {path: 'checkout', component: CheckoutPageComponent},
-    {path: 'contact', component: ContactPageComponent},
     // Here add new pages component
     
     {path: '**', component: ErrorPageComponent} // This line will remain down from the whole pages component list

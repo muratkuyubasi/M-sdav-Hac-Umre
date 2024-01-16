@@ -1678,13 +1678,13 @@ textarea.form-control {
                     weight: 600;
                 };
                 &:hover {
-                    background-color: var(--mainColor);
+                    background-color: rgb(180, 145, 100);
                     color: var(--whiteColor);
                 }
             }
             &.active {
                 span {
-                    background-color: var(--mainColor);
+                    background-color: rgb(180, 145, 100);
                     color: var(--whiteColor);
                 }
             }
@@ -1718,15 +1718,15 @@ textarea.form-control {
                     size: var(--fontSize);
                 };
                 &:hover {
-                    background-color: var(--mainColor);
-                    border-color: var(--mainColor);
+                    background-color:rgb(180, 145, 100);
+                    border-color: rgb(180, 145, 100);
                     color: var(--whiteColor);
                 }
             }
             &.active {
                 span {
-                    background-color: var(--mainColor);
-                    border-color: var(--mainColor);
+                    background-color: rgb(180, 145, 100);
+                    border-color: rgb(180, 145, 100);
                     color: var(--whiteColor);
                 }
             }
@@ -2165,13 +2165,17 @@ textarea.form-control {
     }
     &.item-bg1 {
         background: {
-            image: url(assets/img/page-title/page-title1.jpg);
+            image: url(assets/img/page-title/about.jpeg);
         };
+        animation: pulse 18s linear 0s infinite alternate none running ;
+
     }
     &.item-bg2 {
         background: {
-            image: url(assets/img/page-title/page-title2.jpg);
+            image: url(assets/img/page-title/banner1.png);
         };
+        
+        animation: pulse 18s linear 0s infinite alternate none running ;
     }
     &.item-bg3 {
         background: {
@@ -2182,6 +2186,13 @@ textarea.form-control {
         background: {
             image: url(assets/img/page-title/page-title4.jpg);
         };
+    }
+    &.item-bg5 {
+        background: {
+            image: url(assets/img/page-title/programoffer.jpeg);
+        };
+        animation: pulse 18s linear 0s infinite alternate none running ;
+
     }
 }
 .page-title-content {
@@ -3341,7 +3352,7 @@ blockquote, .blockquote {
     .accordion-item {
         box-shadow: 2px 8px 20px 0 rgba(25, 42, 70, 0.13) !important;
 		border: 1px solid rgba(0, 0, 0, .125);
-        background-color: var(--whiteColor);
+        background-color: rgb(230, 230, 230);
 		margin-bottom: 15px;
         border-radius: 5px;
         display: block;
