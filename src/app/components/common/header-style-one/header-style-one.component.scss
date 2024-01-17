@@ -190,9 +190,10 @@
 .top-header {
     // background-color: var(--mainColor);
     padding: {
-        top: 15px;
-        bottom: 25px;
+        top: 0px;
+        bottom: 0px;
     };
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     .container-fluid {
         padding: {
             left: 60px;
@@ -475,7 +476,7 @@
                 a {
                     color: #fff;
                     font: {
-                        size: 16.5px;
+                        size: 15.5px;
                         weight: 500;
                     };
                     padding: {

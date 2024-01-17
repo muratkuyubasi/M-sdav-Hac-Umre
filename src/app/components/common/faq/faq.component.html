@@ -7,7 +7,7 @@
                         {{ item.title }}
                         <i class='bx' [ngClass]="{'bx-chevron-down': !item.open, 'bx-chevron-up': item.open}"></i>
                     </div>
-                    <div class="accordion-content" [hidden]="!item.open">
+                    <div class="accordion-content" [hidden]="!item.open" style="color: #fff;">
                         {{ item.content }}
                     </div>
                 </div>
@@ -20,7 +20,7 @@
                         {{ item.title }}
                         <i class='bx' [ngClass]="{'bx-chevron-down': !item.open, 'bx-chevron-up': item.open}"></i>
                     </div>
-                    <div class="accordion-content" [hidden]="!item.open">
+                    <div class="accordion-content" [hidden]="!item.open" style="color: #fff;">
                         {{ item.content }}
                     </div>
                 </div>

@@ -2184,8 +2184,10 @@ textarea.form-control {
     }
     &.item-bg4 {
         background: {
-            image: url(assets/img/page-title/page-title4.jpg);
+            image: url(assets/img/page-title/mekke.jpeg);
         };
+        animation: pulse 18s linear 0s infinite alternate none running ;
+
     }
     &.item-bg5 {
         background: {
@@ -3352,7 +3354,7 @@ blockquote, .blockquote {
     .accordion-item {
         box-shadow: 2px 8px 20px 0 rgba(25, 42, 70, 0.13) !important;
 		border: 1px solid rgba(0, 0, 0, .125);
-        background-color: rgb(230, 230, 230);
+        background-color: rgb(180 145 100);
 		margin-bottom: 15px;
         border-radius: 5px;
         display: block;
@@ -3362,7 +3364,7 @@ blockquote, .blockquote {
             cursor: pointer;
             box-shadow: unset;
             position: relative;
-            color: var(--blackColor);
+            color: #fff;
             padding: 17px 15px 17px 45px;
             font: {
                 size: 16px;

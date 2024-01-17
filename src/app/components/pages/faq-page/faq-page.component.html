@@ -46,8 +46,8 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <div class="faq-accordion faq-accordion-style-two">
-                                    <div class="accordion-item" *ngFor="let item of accordionItems; let i = index;">
-                                        <div class="accordion-header" (click)="toggleAccordionItem(item)">
+                                    <div class="accordion-item" *ngFor="let item of accordionItems; let i = index;" style="background-color: rgb(230, 230, 230);">
+                                        <div class="accordion-header" (click)="toggleAccordionItem(item)" style="color: #000;">
                                             {{ item.title }}
                                             <i class='bx' [ngClass]="{'bx-chevron-down': !item.open, 'bx-chevron-up': item.open}"></i>
                                         </div>
@@ -64,8 +64,8 @@
                 <div class="pane" id="tab2" *ngIf="currentTab === 'tab2'">
                     <div class="row">
                         <div class="faq-accordion faq-accordion-style-two">
-                            <div class="accordion-item" *ngFor="let item of accordionItems; let i = index;">
-                                <div class="accordion-header" (click)="toggleAccordionItem(item)">
+                            <div class="accordion-item" *ngFor="let item of accordionItems; let i = index;" style="background-color: rgb(230, 230, 230);">
+                                <div class="accordion-header" (click)="toggleAccordionItem(item)" style="color: #000;">
                                     {{ item.title }}
                                     <i class='bx' [ngClass]="{'bx-chevron-down': !item.open, 'bx-chevron-up': item.open}"></i>
                                 </div>

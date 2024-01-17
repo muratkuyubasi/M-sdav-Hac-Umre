@@ -12,4 +12,5 @@ export class HomePageOneComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
 }
