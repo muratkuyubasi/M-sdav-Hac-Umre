@@ -66,10 +66,12 @@ import { HomePageFourteenComponent } from './components/pages/home-page-fourteen
 const routes: Routes = [
     {path: '', component: HomePageOneComponent},
     {path: 'about', component: AboutPageOneComponent},
-    {path: 'contact', component: ContactPageComponent},
     {path: 'faqs', component: FaqPageComponent},
-    {path: 'programoffer', component: CoursesGridStyleOneColumnsThreePageComponent},
+    // {path: 'programoffer', component: CoursesGridStyleOneColumnsThreePageComponent},
     {path: 'mekke', component: CoursesGridStyleTwoColumnsFourPageComponent},
+    {path: 'contact', component: ContactPageComponent},
+    {path: 'programoffer', component: CoursesGridStyleOneColumnsFourPageComponent},
+
 
 
     {path: 'course-portal-online', component: HomePageTwoComponent},
@@ -105,7 +107,6 @@ const routes: Routes = [
     {path: 'courses-category-style-3', component: CategoryPageThreeComponent},
     {path: 'courses-list', component: CoursesListPageComponent},
     {path: 'courses-2-columns-style-1', component: CoursesGridStyleOneColumnsTwoPageComponent},
-    {path: 'courses-4-columns-style-1', component: CoursesGridStyleOneColumnsFourPageComponent},
     {path: 'courses-2-columns-style-2', component: CoursesGridStyleTwoColumnsTwoPageComponent},
     {path: 'courses-3-columns-style-2', component: CoursesGridStyleTwoColumnsThreePageComponent},
     {path: 'courses-2-columns-style-3', component: CoursesGridStyleThreeColumnsTwoPageComponent},

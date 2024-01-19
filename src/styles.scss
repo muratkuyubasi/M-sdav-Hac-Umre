@@ -454,7 +454,7 @@ textarea.form-control {
             margin-top: 0;
 
             [class*=owl-] {
-                color: #87a1c1;
+                // color: #87a1c1;
                 font-size: 25px;
                 margin: 0;
                 padding: 0;
@@ -480,9 +480,9 @@ textarea.form-control {
                     right: -50px;
                 }
                 &:hover, &:focus {
-                    background-color: var(--mainColor);
-                    color: var(--whiteColor);
-                    border-color: var(--mainColor);
+                    background-color: #000;
+                    // color: var(--whiteColor);
+                    // border-color: var(--mainColor);
                     box-shadow: 0px 8px 16px 0px rgba(241, 96, 1, 0.2);
                 }
                 &.disabled {
@@ -900,7 +900,7 @@ textarea.form-control {
                 line-height: 1;
                 font-size: 35px;
                 position: absolute;
-                color: var(--mainColor2);
+                color: rgb(180, 145, 100);
                 transform: translateY(-50%);
                 transition: var(--transition);
                 padding: 0 0 0 6px !important;

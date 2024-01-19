@@ -1,5 +1,5 @@
 .footer-area {
-    background-color: #12141b;
+    background-color:#23282d;
     padding-top: 100px;
 }
 .single-footer-widget {
@@ -61,7 +61,7 @@
                 color: #cccccc;
 
                 &:hover, &:focus {
-                    color: var(--mainColor);
+                    color:  rgb(180, 145, 100);;
                     padding-left: 7px;
                 }
             }
@@ -104,7 +104,7 @@
                 width: 30px;
                 height: 30px;
                 text-align: center;
-                color: var(--mainColor);
+                color: rgb(180, 145, 100);
                 background-color: var(--whiteColor);
                 font-size: 18px;
                 position: relative;
@@ -118,7 +118,7 @@
                     transform: translateY(-49%);
                 }
                 &:hover, &:focus {
-                    background-color: var(--mainColor);
+                    background-color: rgb(180, 145, 100);
                     color: var(--whiteColor);
                 }
             }
@@ -162,7 +162,7 @@
                 margin-top: .9rem;
                 width: 100%;
                 border-radius: .25rem;
-                background-color: var(--mainColor);
+                background-color: rgb(180, 145, 100);
                 color: var(--whiteColor);
                 border: none;
                 padding: 12px 25px;

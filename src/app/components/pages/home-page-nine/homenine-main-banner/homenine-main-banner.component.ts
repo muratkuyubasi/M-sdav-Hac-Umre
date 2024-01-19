@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import { ContentsModel } from 'src/app/components/models/contentsModel';
+import { ContentsService } from 'src/app/components/services/contents.service';
+import { environment } from 'src/environments/environment';
 
 @Component({
     selector: 'app-homenine-main-banner',
@@ -8,9 +11,21 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class HomenineMainBannerComponent implements OnInit {
 
-    constructor() { }
+    path = environment.serverUrl;
+	slidersModel!: ContentsModel;
 
-    ngOnInit(): void {}
+
+	constructor(private contentsService: ContentsService) { }
+	ngOnInit(): void {
+		this.getnewsList();
+	
+	  }
+
+	getnewsList() {
+		this.contentsService.getsldiderList().subscribe(newsdata => {
+		  this.slidersModel = newsdata;
+		})
+	  }
 
     healthCoachingBannerSlides: OwlOptions = {
         items: 1,

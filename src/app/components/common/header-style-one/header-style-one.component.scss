@@ -1,4 +1,4 @@
-.header-area {
+ .header-area {
     top: 0;
     left: 0;
     right: 0;
@@ -6,7 +6,7 @@
     height: auto;
     z-index: 999;
     position: absolute;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)) 0px 0px no-repeat padding-box padding-box transparent    ;
+    background: rgba(0, 0, 0, 0.7) !important;
 
     &.p-relative {
         position: relative;
@@ -453,8 +453,8 @@
         
         .navbar-brand {
             padding: {
-                top: 0;
-                bottom: 0;
+                top: 9px;
+                bottom: 15px;
                 left: 0;
                 right: 0;
             };
@@ -515,7 +515,7 @@
                 }
                 &:hover, &.active {
                     a {
-                        color: var(--mainColor);
+                        color:rgb(180, 145, 100);
                     }
                 }
                 .dropdown-menu {
